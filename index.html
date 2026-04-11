@@ -1,0 +1,150 @@
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Rifas El Patrón</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#000000, #1a1a1a);
+    color: white;
+    overflow-x: hidden;
+}
+
+/* LOGO /
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 220px;
+}
+
+/ TITULO /
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: gold;
+    text-shadow: 0 0 10px red;
+}
+
+/ BOTONES /
+.btn {
+    display: block;
+    margin: 15px auto;
+    padding: 15px 30px;
+    font-size: 20px;
+    background: linear-gradient(red, gold);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px gold;
+}
+
+/ CARRO /
+.carro {
+    width: 300px;
+    margin: 30px auto;
+    border: 5px solid gold;
+    border-radius: 20px;
+    box-shadow: 0 0 30px red;
+    padding: 10px;
+    background: #111;
+}
+
+/ BANDERAS /
+.bandera {
+    width: 40px;
+}
+
+/ DINERO FLOTANDO /
+.money {
+    position: fixed;
+    top: -50px;
+    font-size: 30px;
+    animation: caer 5s linear infinite;
+}
+
+@keyframes caer {
+    0% {transform: translateY(-50px);}
+    100% {transform: translateY(100vh);}
+}
+
+/ NUBES /
+.nube {
+    position: absolute;
+    top: 50px;
+    font-size: 50px;
+    animation: mover 30s linear infinite;
+}
+
+@keyframes mover {
+    0% {left: -100px;}
+    100% {left: 100%;}
+}
+
+/ STICKER */
+.sticker {
+    width: 80px;
+    position: absolute;
+    animation: flotar 4s ease-in-out infinite;
+}
+
+@keyframes flotar {
+    0%,100% {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- LOGO -->
+<img src="logo.png" class="logo">
+
+<h1>💰 Rifas El Patrón 💰</h1>
+
+<!-- BANDERAS -->
+<div style="text-align:center;">
+🇲🇽 🇲🇽 🇲🇽
+</div>
+
+<!-- BOTONES -->
+<button class="btn">🎟️ Comprar Número</button>
+<button class="btn">🏆 Ver Resultados</button>
+<button class="btn">📲 Contacto</button>
+
+<!-- CARRO -->
+<div class="carro">
+    <img src="carro.jpg" width="100%">
+    <p style="text-align:center;">🚗 ¡Gana este increíble carro! 🚗</p>
+</div>
+
+<!-- REGALOS -->
+<div style="text-align:center; font-size:40px;">
+🎁 🎁 🎁
+</div>
+
+<!-- NUBES -->
+<div class="nube">☁️</div>
+<div class="nube" style="top:100px;">☁️</div>
+
+<!-- DINERO -->
+<div class="money" style="left:10%;">💸</div>
+<div class="money" style="left:50%;">💸</div>
+<div class="money" style="left:80%;">💸</div>
+
+<!-- STICKERS (usa tu logo o muñeco) -->
+<img src="logo.png" class="sticker" style="top:200px; left:10%;">
+<img src="logo.png" class="sticker" style="top:400px; right:10%;">
+<img src="logo.png" class="sticker" style="top:600px; left:30%;">
+
+</body>
